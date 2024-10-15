@@ -1,0 +1,106 @@
+/* Colors:
+
+Primary Dark Blue: #243345
+Secondary Blue: #0B3D91
+Text Color: #191308
+
+*/
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #191308;
+}
+
+.f-12 { font-size: 12px; }
+.f-14 { font-size: 14px; }
+.f-16 { font-size: 16px; }
+.f-18 { font-size: 18px; }
+
+.navbar {
+    padding: 24px 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+}
+.navbar-brand {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-style: normal;
+}
+/* Hero Section */
+.hero {
+    margin: 64px 24px 0px 24px;
+    margin-top: 100px;
+    background-image: url('/public/img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    color: #fff;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero h1 {
+    font-size: 3.5rem;
+}
+.hero p {
+    font-size: 1.5rem;
+}
+.btn-white {
+    border-radius: 12px;
+    background: #FFF;
+    width: 150px;
+    height: 40px;
+    color: #243345;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn-white:hover {
+    border: solid 1px #fff;
+}
+.btn-blue {
+    border-radius: 12px;
+    background: #0B3D91;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn-blue:hover {
+    border: solid 1px #0B3D91;
+}
+
+/* About Section */
+.about {
+    padding: 80px 0;
+    margin:0 24px;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+.about p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.about strong {
+    color: #007bff;
+}
+
+/* Footer */
+.footer {
+    background-color: #243345;
+    color: #fff;
+    padding: 64px 24px 24px 24px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    h1{ font-size: 2.5rem !important; }
+    h2 { font-size: 1.8rem !important; }
+    .hero p { font-size: 1.2rem; }
+}
